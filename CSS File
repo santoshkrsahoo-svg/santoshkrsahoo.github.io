@@ -1,0 +1,118 @@
+/* Global Style */
+
+body{
+font-family: "Segoe UI", Arial, sans-serif;
+margin:0;
+background:#f4f6f8;
+line-height:1.6;
+}
+
+
+/* Header */
+
+header{
+background:#0b3d91;
+color:white;
+padding:25px;
+text-align:center;
+}
+
+
+/* Navigation */
+
+nav{
+background:#222;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+}
+
+nav a:hover{
+color:#ffcc00;
+}
+
+
+/* Content Container */
+
+.container{
+width:80%;
+margin:auto;
+background:white;
+padding:25px;
+margin-top:25px;
+border-radius:8px;
+box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+
+/* Headings */
+
+h1{
+margin:0;
+}
+
+h2{
+color:#0b3d91;
+border-bottom:2px solid #eee;
+padding-bottom:6px;
+}
+
+
+/* Lists */
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:8px;
+}
+
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:15px;
+background:#0b3d91;
+color:white;
+margin-top:30px;
+}
+
+
+/* Button Style */
+
+.button{
+background:#0b3d91;
+color:white;
+padding:10px 18px;
+border-radius:5px;
+text-decoration:none;
+}
+
+.button:hover{
+background:#062a63;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width:768px){
+
+.container{
+width:95%;
+}
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+}
