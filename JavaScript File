@@ -1,0 +1,43 @@
+// Welcome Message
+window.onload = function() {
+
+console.log("Website Loaded Successfully");
+
+};
+
+
+// Simple Greeting Function
+
+function greetUser(){
+
+alert("Welcome to Dr. Santosh Kumar Sahoo's Academic Website");
+
+}
+
+
+
+// Scroll to Top Button
+
+let topButton = document.createElement("button");
+topButton.innerHTML = "Top";
+topButton.style.position = "fixed";
+topButton.style.bottom = "30px";
+topButton.style.right = "20px";
+topButton.style.padding = "10px";
+topButton.style.background = "#0b3d91";
+topButton.style.color = "white";
+topButton.style.border = "none";
+topButton.style.borderRadius = "5px";
+topButton.style.cursor = "pointer";
+
+document.body.appendChild(topButton);
+
+topButton.onclick = function(){
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+
+});
+
+};
