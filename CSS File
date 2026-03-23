@@ -18,12 +18,8 @@ header{
 /* PROFILE IMAGE */
 .profile-img{
   width:150px;
-  height:auto;            /* 👈 FULL IMAGE */
-  border-radius:0;        /* 👈 NO CIRCLE */
-  border:3px solid white;
-  position:absolute;      /* 👈 LEFT FIX */
-  left:20px;
-  top:20px;
+  border-radius:50%;
+  margin-left: 20px;   /* 👈 adjust this value */
 }
 
 /* NAVIGATION */
