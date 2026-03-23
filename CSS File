@@ -11,20 +11,15 @@ header{
   background:#0b3d91;
   color:#F9FAFB;
   padding:40px 20px;
-  overflow:hidden; /* keeps layout clean */
+  overflow:hidden;   /* important for float layout */
 }
 
 /* PROFILE IMAGE (LEFT SIDE) */
 .profile-img{
   width:150px;
   border-radius:50%;
-  float:left;          /* 👈 keeps image on left */
-  margin-right:20px;   /* space between image and text */
-}
-
-/* TEXT NEXT TO IMAGE */
-.header-text{
-  overflow:hidden;     /* prevents wrapping under image */
+  float:left;              /* 👈 image stays on left */
+  margin-right:20px;       /* space between image and text */
 }
 
 /* NAVIGATION */
