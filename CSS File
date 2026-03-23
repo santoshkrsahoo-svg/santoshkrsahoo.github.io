@@ -18,10 +18,14 @@ text-align:center;
 }
 
 /* PROFILE IMAGE */
-.profile-container{
-  display:flex;
-  align-items:center;
-  gap:20px;
+.profile-img{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  border:3px solid white;
+  object-fit:cover;
+  float:left;          /* 👈 THIS makes it left */
+  margin-right:20px;   /* space between image & text */
 }
 /* NAVIGATION */
 
