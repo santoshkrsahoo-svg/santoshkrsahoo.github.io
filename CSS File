@@ -14,18 +14,21 @@ header{
   background:#0b3d91;
   color:#F9FAFB;
   padding:25px;
-  text-align:left;   /* 👈 THIS FIXES EVERYTHING */
+  text-align:center;   /* 👈 keep center */
 }
-
+header{
+  position:relative;   /* 👈 required for absolute */
+}
 /* PROFILE IMAGE */
 
-.profile-img{
+ .profile-img{
   width:150px;
-  height:auto;        /* 👈 keeps full image */
-  border-radius:0;    /* 👈 removes circle */
+  height:auto;
+  border-radius:0;
   border:3px solid white;
-  float:left;         /* 👈 left side */
-  margin-right:20px;
+  position:absolute;   /* 👈 key trick */
+  left:20px;           /* 👈 move to left */
+  top:20px;
 }
 
 
