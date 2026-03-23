@@ -21,11 +21,10 @@ header{
 
 .profile-img{
   width:150px;
-  height:150px;
-  border-radius:50%;
+  height:auto;        /* 👈 keeps full image */
+  border-radius:0;    /* 👈 removes circle */
   border:3px solid white;
-  object-fit:cover;
-  float:left;
+  float:left;         /* 👈 left side */
   margin-right:20px;
 }
 
