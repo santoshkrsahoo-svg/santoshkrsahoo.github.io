@@ -1,5 +1,4 @@
 /* GLOBAL BODY STYLE */
-
 body{
   font-family: "Segoe UI", Arial, sans-serif;
   margin:0;
@@ -7,33 +6,27 @@ body{
   color:#F9FAFB;
 }
 
-
 /* HEADER */
-
 header{
   background:#0b3d91;
   color:#F9FAFB;
-  padding:25px;
-  text-align:center;   /* 👈 keep center */
+  padding:40px 20px;
+  text-align:center;      /* 👈 TEXT CENTER */
+  position:relative;      /* 👈 IMPORTANT */
 }
-header{
-  position:relative;   /* 👈 required for absolute */
-}
-/* PROFILE IMAGE */
 
- .profile-img{
+/* PROFILE IMAGE */
+.profile-img{
   width:150px;
-  height:auto;
-  border-radius:0;
+  height:auto;            /* 👈 FULL IMAGE */
+  border-radius:0;        /* 👈 NO CIRCLE */
   border:3px solid white;
-  position:absolute;   /* 👈 key trick */
-  left:20px;           /* 👈 move to left */
+  position:absolute;      /* 👈 LEFT FIX */
+  left:20px;
   top:20px;
 }
 
-
 /* NAVIGATION */
-
 nav{
   background:#111827;
   padding:12px;
@@ -51,9 +44,7 @@ nav a:hover{
   color:#60A5FA;
 }
 
-
 /* CONTENT SECTION */
-
 .container{
   width:80%;
   margin:auto;
@@ -64,23 +55,17 @@ nav a:hover{
   box-shadow:0 4px 10px rgba(0,0,0,0.4);
 }
 
-
 /* HEADINGS */
-
 h1,h2{
   color:#E5E7EB;
 }
 
-
 /* LIST */
-
 li{
   margin-bottom:8px;
 }
 
-
 /* FOOTER */
-
 footer{
   text-align:center;
   padding:18px;
@@ -89,9 +74,7 @@ footer{
   margin-top:40px;
 }
 
-
 /* BUTTON */
-
 .button{
   background:#2563EB;
   color:white;
