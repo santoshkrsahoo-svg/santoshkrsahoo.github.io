@@ -14,9 +14,8 @@ header{
   background:#0b3d91;
   color:#F9FAFB;
   padding:25px;
-  text-align:left; /* 👈 keep left */
+  text-align:left;   /* 👈 THIS FIXES EVERYTHING */
 }
-
 
 /* PROFILE IMAGE */
 
@@ -26,7 +25,7 @@ header{
   border-radius:50%;
   border:3px solid white;
   object-fit:cover;
-  float:left;          /* 👈 LEFT FIX */
+  float:left;
   margin-right:20px;
 }
 
